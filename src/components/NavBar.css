@@ -1,0 +1,104 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #efe6d5;
+    height: 5.5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0px 0px 15px -5px;
+}
+
+nav #logo {
+    padding: 20px;
+    margin-top: 12px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.slider ul li {
+    display: inline-flex;
+    margin-top: 12px;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #faa0a0;
+}
+
+.menu-icon .menu {
+    display: none;
+    }
+
+.closed .exit{
+    display: none;
+}
+
+@media all and (max-width: 850px) {
+    nav #logo {
+        margin-left: 5px;
+    }
+    
+    .slider {
+        position: absolute;
+        min-width: 100%;
+        height: 100vh;
+        background-color: #efe6d5;
+        right: -100%;
+        transition: 1s ease;
+    }
+
+    .slider ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    
+    .slider.active {
+        right: 0;
+        transition: 1s ease;
+    }
+
+    .menu-icon .menu {
+        display: flex;
+        margin-top: 6px;
+        padding: 20px;
+        font-size: 40px;
+        color: black;
+        float: right;
+        cursor: pointer;
+        }
+
+    .menu-icon .menu:hover {
+        color: #faa0a0;
+    }
+
+    .closed {
+        display: flex;
+        justify-content: flex-end;
+        color: black;
+        cursor: pointer;
+    }
+
+    .closed .exit {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 40px;
+        padding: 20px;
+        margin-top: 6px;
+    }
+
+    .closed .exit:hover {
+        color: #faa0a0;
+    }
+}
