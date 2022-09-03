@@ -275,6 +275,19 @@
   align-items: center;
 }
 
+.website-code {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.website-code:hover {
+  color: #faa0a0;
+}
+
 @media all and (max-width: 1050px) {
   .project-grid {
     display: grid;
