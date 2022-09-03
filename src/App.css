@@ -10,6 +10,12 @@
   height: 100vh;
 }
 
+#home .title {
+  z-index: 1;
+  position: sticky;
+  margin-top: 88px;
+}
+
 #home h1 {
   font-size: 100px;
   text-align: center;
@@ -38,6 +44,145 @@
 
 #home a:hover {
   color: #faa0a0;
+}
+
+.boxes div{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(202, 229, 238);
+  background-color: rgba(255, 255, 255, 0.171);
+}
+
+.boxes div:nth-child(1) {
+  top: 12%;
+  left: 42%;
+  animation: animate 11s linear infinite;
+}
+
+.boxes div:nth-child(2) {
+  top: 15%;
+  left: 57%;
+  animation: animate 12s linear infinite;
+}
+
+.boxes div:nth-child(3) {
+  top: 30%;
+  left: 76%;
+  animation: animate 13s linear infinite;
+}
+
+.boxes div:nth-child(4) {
+  top: 89%;
+  left: 28%;
+  animation: animate 14s linear infinite;
+}
+
+.boxes div:nth-child(5) {
+  top: 63%;
+  left: 24%;
+  animation: animate 15s linear infinite;
+}
+
+.boxes div:nth-child(6) {
+  top: 22%;
+  left: 13%;
+  animation: animate 16s linear infinite;
+}
+
+.boxes div:nth-child(7) {
+  top: 71%;
+  left: 75%;
+  animation: animate 17s linear infinite;
+}
+
+.boxes div:nth-child(8) {
+  top: 38%;
+  left: 29%;
+  animation: animate 18s linear infinite;
+}
+
+.boxes div:nth-child(9) {
+  top: 51%;
+  left: 67%;
+  animation: animate 19s linear infinite;
+}
+
+.boxes div:nth-child(10) {
+  top: 88%;
+  left: 17%;
+  animation: animate 20s linear infinite;
+}
+
+.boxes div:nth-child(11) {
+  top: 92%;
+  left: 55%;
+  animation: animate 21s linear infinite;
+}
+
+.boxes div:nth-child(12) {
+  top: 56%;
+  left: 52%;
+  animation: animate 22s linear infinite;
+}
+
+.boxes div:nth-child(13) {
+  top: 76%;
+  left: 42%;
+  animation: animate 23s linear infinite;
+}
+
+.boxes div:nth-child(14) {
+  top: 56%;
+  left: 15%;
+  animation: animate 24s linear infinite;
+}
+
+.boxes div:nth-child(15) {
+  top: 56%;
+  left: 32%;
+  animation: animate 25s linear infinite;
+}
+
+.boxes div:nth-child(16) {
+  top: 49%;
+  left: 45%;
+  animation: animate 26s linear infinite;
+}
+
+.boxes div:nth-child(17) {
+  top: 74%;
+  left: 18%;
+  animation: animate 27s linear infinite;
+}
+
+.boxes div:nth-child(18) {
+  top: 38%;
+  left: 68%;
+  animation: animate 18s linear infinite;
+}
+
+.boxes div:nth-child(19) {
+  top: 90%;
+  left: 68%;
+  animation: animate 29s linear infinite;
+}
+
+.boxes div:nth-child(20) {
+  top: 83%;
+  left: 78%;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(0);
+  }
+
+  100% {
+    transform: scale(2) translateY(-200px);
+  }
 }
 
 #about {
@@ -127,6 +272,7 @@
 .project-grid div {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 @media all and (max-width: 1050px) {
