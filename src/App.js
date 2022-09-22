@@ -16,11 +16,11 @@ function App() {
       <NavBar />
       <section id='home'>
         <div className='title'>
-        <h1>Nam Doan</h1>
-        <p>Front-End Web Developer</p>
-        <div className='resume'>
-        <a href={resume} target='blank'>Download Resume</a>
-        </div>
+          <h1>Nam Doan</h1>
+          <p>Front-End Web Developer</p>
+          <div className='resume'>
+            <a href={resume} target='blank'>Download Resume</a>
+          </div>
         </div>
         <div className='boxes'>
           <div></div>
@@ -56,32 +56,40 @@ function App() {
       </section>
       <section id='skills'>
         <h1>Skills</h1>
-        <div className='skill-icons'>
-          <div className='html'>
-           <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='html icon'/></h1>
-           <h1 style={{color: '#e34c26'}}>Html</h1>
-         </div>
-          <div className='css'>
-            <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='css icon'/></h1>
-            <h1 style={{color: '#2965f1'}}>CSS</h1>
+          <div className='skill-icons'>
+            <div className='html'>
+              <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt='html icon'/></h1>
+              <h1 style={{color: '#e34c26'}}>Html</h1>
+            </div>
+            <div className='css'>
+              <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt='css icon'/></h1>
+              <h1 style={{color: '#2965f1'}}>CSS</h1>
+            </div>
+            <div className='sass'>
+              <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt='sass icon'/></h1>
+              <h1 style={{color: '#cc6699'}}>Sass</h1>
+            </div>
+            <div className='javascript'>
+              <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt='javascript icon'/></h1>
+              <h1 style={{color: '#f0db4f'}}>Javascript</h1>
+            </div>
+            <div className='react'>
+              <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='react icon'/></h1>
+              <h1 style={{color: '#61DBFB'}}>React.js</h1>
+            </div>
+            <div className='redux'>
+              <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt='redux icon'/></h1>
+              <h1 style={{color: '#764abc'}}>Redux</h1>
+            </div>
+            <div className='node'>
+              <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt='node.js icon'/></h1>
+              <h1 style={{color: 'rgb(156, 204, 101)'}}>Node.js</h1>
+            </div>
+            <div className='git'>
+              <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt='git icon'/></h1>
+              <h1 style={{color: '#F1502F'}}>Git</h1>
+            </div>
           </div>
-          <div className='javascript'>
-            <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt='javascript icon'/></h1>
-           <h1 style={{color: '#f0db4f'}}>Javascript</h1>
-         </div>
-         <div className='react'>
-           <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt='react icon'/></h1>
-           <h1 style={{color: '#61DBFB'}}>React</h1>
-         </div>
-          <div className='redux'>
-            <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt='redux icon'/></h1>
-           <h1 style={{color: '#764abc'}}>Redux</h1>
-          </div>
-          <div className='git'>
-            <h1><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt='git icon'/></h1>
-            <h1 style={{color: '#F1502F'}}>Git</h1>
-          </div>
-        </div>
       </section>
       <section id='projects'>
         <h1>Projects</h1>

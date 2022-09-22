@@ -188,8 +188,9 @@
 #about {
   background-color: #9dbeb7;
   height: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   scroll-margin-top: 88px;
+  text-align: center;
 }
 
 #about p {
@@ -206,8 +207,9 @@
 
 #skills {
   background-color: #efe6d5;
-  height: 550px;
+  height: 100%;
   scroll-margin-top: 88px;
+  padding-bottom: 40px;
 }
 
 #contact {
@@ -303,6 +305,15 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     overflow: scroll;
     height: 575px;
+    overflow-x: hidden;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .skill-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 }
 
